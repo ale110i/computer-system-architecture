@@ -3,11 +3,10 @@ from container_generator import ContainerGenerator
 from input_generator import generate_input
 from output_generator import generate_output
 
-max_container_size = 2
+max_container_size = 10
 
 if __name__ == '__main__':
     container_size = randint(0, max_container_size - 1)
-    # container_size = 0
     container_gen = ContainerGenerator()
     container, sorted_container = container_gen.generate_container(container_size)
     correct_input_path = 'correct_input.txt'

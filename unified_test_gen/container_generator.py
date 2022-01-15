@@ -82,7 +82,7 @@ class ContainerGenerator(object):
     def generate_container(self, container_size):
         container = []
         for i in range(container_size):
-            item_type = randint(0, 2)
+            item_type = randint(0, 1)
             container.append(self.generators[item_type]())
         sorted_container = deepcopy(container)
         sorted_container.sort(key=lambda element: element[2])
