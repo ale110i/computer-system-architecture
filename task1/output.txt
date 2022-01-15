@@ -1,0 +1,37 @@
+Container size: 4
+
+INITIAL ORDER:
+
+Characters Replacement Encryption
+Replacements: a->b, b->c
+Encrypted string: bc
+
+Shift Encryption
+Shift: 10
+Encrypted string: bcd
+
+Number Encryption
+Replacements: a->10, b->24
+Encrypted string: 10 24 10 24
+
+Number Encryption
+Replacements: a->10
+Encrypted string: 
+
+SORTED:
+
+Shift Encryption
+Shift: 10
+Encrypted string: bcd
+
+Characters Replacement Encryption
+Replacements: a->b, b->c
+Encrypted string: bc
+
+Number Encryption
+Replacements: a->10, b->24
+Encrypted string: 10 24 10 24
+
+Number Encryption
+Replacements: a->10
+Encrypted string: 
